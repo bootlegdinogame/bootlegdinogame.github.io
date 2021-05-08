@@ -305,7 +305,7 @@ const leaderboards = async function (event) {
   try {
     let result = await axios({
       method: 'get',
-      url: 'http://fa7f4d6da8f2.ngrok.io/routines'
+      url: 'https://fa7f4d6da8f2.ngrok.io/routines'
     });
     return result;
   } catch (err) {
