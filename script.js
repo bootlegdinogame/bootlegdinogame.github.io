@@ -348,7 +348,7 @@ const updateScore = async function (event) {
     try {
       const result = await axios({
         method: 'post',
-        url: 'http://fa7f4d6da8f2.ngrok.io/routines',
+        url: 'https://fa7f4d6da8f2.ngrok.io/routines',
         data: {
           username: $("#username")[0].value,
           password: $("#password")[0].value,
