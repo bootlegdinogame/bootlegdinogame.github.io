@@ -240,7 +240,7 @@ Start();
 let getWeather = async () => {
   const result = await axios({
     method: 'get',
-    url: 'http://www.7timer.info/bin/api.pl?lon=79.0469&lat=35.9049&product=astro&output=json'
+    url: 'https://www.7timer.info/bin/api.pl?lon=79.0469&lat=35.9049&product=astro&output=json'
   });
   return result;
 };
